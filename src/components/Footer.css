@@ -1,0 +1,31 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+  padding: 40px 90px;
+}
+.footterox {
+  display: flex;
+  justify-content: space-between;
+}
+.footterox div {
+  display: flex;
+}
+.footterox div p {
+  margin: 8px;
+}
+.footterox p {
+  margin: 8px;
+}
+@media screen and (max-width: 550px) {
+  .footer {
+    padding: 10px;
+    font-size: small;
+  }
+}
+@media screen and (max-width: 420px) {
+  .footer {
+    padding: 10px;
+    font-size: x-small;
+  }
+}

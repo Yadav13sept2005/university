@@ -1,0 +1,126 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.scrollnav {
+  background-color: rgb(13, 13, 141);
+  transition: 0.4s;
+  color: white;
+  position: fixed;
+}
+.logo {
+  width: 180px;
+  cursor: pointer;
+  padding-left: 80px;
+  display: flex;
+  justify-content: center;
+}
+.elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  grid-column-gap: 45px;
+  padding: 0 90px;
+}
+.element {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 800;
+}
+.contactus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.menuicon {
+  background-color: black;
+  height: 100px;
+
+  width: 100px;
+}
+.fabars {
+  display: none;
+}
+@media screen and (max-width: 1082px) {
+  .logo {
+    width: 180px;
+    cursor: pointer;
+    padding-left: 8px;
+  }
+  .elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    grid-column-gap: 45px;
+    padding: 0 9px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .logo {
+    width: 180px;
+    cursor: pointer;
+    padding-left: 8px;
+  }
+  .elements {
+    display: none;
+  }
+  .fabars {
+    display: flex;
+    height: 25px;
+    color: white;
+    justify-content: end;
+    padding: 0 20px;
+    cursor: pointer;
+  }
+}
+.innerdropdoen {
+  display: none;
+  z-index: 10;
+}
+
+.activeelements {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 170px;
+  float: right;
+  grid-row-gap: 20px;
+  position: fixed;
+
+  background-color: gray;
+  top: 50px;
+  height: 100vh;
+  right: 1px;
+}
+.dropdownelements {
+  display: flex;
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+}
+.contactusdropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+
+  background-color: white;
+  border-radius: 15px;
+  padding: 6px;
+}

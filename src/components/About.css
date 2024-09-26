@@ -1,0 +1,77 @@
+.aboutvedio img {
+  height: 400px;
+  width: 400px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+}
+.aboutvedio {
+  height: 400px;
+  width: 400px;
+  border-radius: 18px;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutvediofont {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(18, 77, 228);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.4;
+  cursor: pointer;
+}
+.about {
+  display: flex;
+  padding: 80px 0px;
+
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+.aboutpbox {
+  grid-row-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+}
+.aboutp {
+  color: rgb(20, 20, 161);
+  font-weight: 800;
+}
+@media screen and (max-width: 963px) {
+  .about {
+    flex-wrap: wrap;
+  }
+  .aboutvedio {
+    padding: 10px 0px;
+  }
+}
+@media screen and (max-width: 615px) {
+  .aboutpbox {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .aboutpbox {
+    width: 300px;
+  }
+  .aboutvedio {
+    height: 300px;
+    width: 300px;
+  }
+  .aboutvedio img {
+    height: 300px;
+    width: 300px;
+  }
+}
